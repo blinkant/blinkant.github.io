@@ -30,20 +30,6 @@
   </url>
   
   <url>
-    <loc>categories/index.html</loc>
-    
-    <lastmod>2019-10-04T03:57:55.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>404.html</loc>
-    
-    <lastmod>2019-10-04T03:57:55.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>archives/index.html</loc>
     
     <lastmod>2019-10-04T03:57:55.000Z</lastmod>
@@ -58,7 +44,14 @@
   </url>
   
   <url>
-    <loc>friends/index.html</loc>
+    <loc>categories/index.html</loc>
+    
+    <lastmod>2019-10-04T03:57:55.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>404.html</loc>
     
     <lastmod>2019-10-04T03:57:55.000Z</lastmod>
     
@@ -66,6 +59,13 @@
   
   <url>
     <loc>AV/index.html</loc>
+    
+    <lastmod>2019-10-04T03:57:55.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>friends/index.html</loc>
     
     <lastmod>2019-10-04T03:57:55.000Z</lastmod>
     
