@@ -544,7 +544,7 @@ header .go-back i {
         background: -webkit-linear-gradient(135deg, rgba(2233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
     }
 } */
-/* 换成:红橙黄绿青蓝紫 背景渐变 洪卫 shw2018  add  2019.08.30  */
+
 @keyframes rainbow {
     /* 0%,
     100% {
@@ -1948,7 +1948,7 @@ footer .copy-right {
     background: white;
 }
 
-/* 二级菜单样式定义 洪卫 shw2018 add 2019.09.17 */
+/* 二级菜单样式定义 朔蚁 blinkant modify 2020.03.17 */
 .nav-menu {}
 
 .nav-menu li .sub-nav {

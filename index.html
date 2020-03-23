@@ -111,24 +111,6 @@ daovoice('update');
     </li>
     
     <li class="hide-on-med-and-down">
-        <a href="/tags" target="_blank" rel="noopener" class="waves-effect waves-light">
-            
-            <i class="fa fa-tags"></i>
-            
-            <span>标签</span>
-        </a>
-    </li>
-    
-    <li class="hide-on-med-and-down">
-        <a href="/categories" target="_blank" rel="noopener" class="waves-effect waves-light">
-            
-            <i class="fa fa-bookmark"></i>
-            
-            <span>分类</span>
-        </a>
-    </li>
-    
-    <li class="hide-on-med-and-down">
         <a href="/archives" target="_blank" rel="noopener" class="waves-effect waves-light">
             
             <i class="fa fa-archive"></i>
@@ -189,7 +171,7 @@ daovoice('update');
     </li>
 </ul> -->
 
-<!-- 支持二级菜单特性 洪卫 shw2018 modify 2019.09.17  -->
+<!-- 支持二级菜单特性 朔蚁 blinkant modify 2020.03.17  -->
 <a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fa fa-navicon"></i></a>
 <ul class="right nav-menu">
     
@@ -209,40 +191,36 @@ daovoice('update');
       <li class="hide-on-med-and-down nav-item" >
 
         
-            <a href="/tags" target="_blank" rel="noopener" class="waves-effect waves-light">
-              
-                <i class="fa fa-tags"></i>
-              
-              <span>标签</span>
-            </a>
+              <a href="/archives" target="_blank" rel="noopener" class="waves-effect waves-light">
+                
+                  <i class="fa fa-archive"></i>
+                
+                <span>归档</span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+              </a>
 
-            
-      </li>
-    
-      <li class="hide-on-med-and-down nav-item" >
-
-        
-            <a href="/categories" target="_blank" rel="noopener" class="waves-effect waves-light">
+            <ul class="sub-nav menus_item_child ">
               
-                <i class="fa fa-bookmark"></i>
+                <li> 
+                  <a href="/tags" target="_blank" rel="noopener" >
+                    
+                      <i class="fa fa-tags" style="margin-top: -20px;"></i>
+                    
+                    <span>Tags</span>
+                  </a>
+                </li>
               
-              <span>分类</span>
-            </a>
-
-            
-      </li>
-    
-      <li class="hide-on-med-and-down nav-item" >
-
-        
-            <a href="/archives" target="_blank" rel="noopener" class="waves-effect waves-light">
-              
-                <i class="fa fa-archive"></i>
-              
-              <span>归档</span>
-            </a>
-
-            
+                <li> 
+                  <a href="/categories" target="_blank" rel="noopener" >
+                    
+                      <i class="fa fa-bookmark" style="margin-top: -20px;"></i>
+                    
+                    <span>Categories</span>
+                  </a>
+                </li>
+               
+            </ul>
+          
       </li>
     
       <li class="hide-on-med-and-down nav-item" >
@@ -347,24 +325,6 @@ daovoice('update');
         </li>
         
         <li>
-            <a href="/tags" target="_blank" rel="noopener" class="waves-effect waves-light">
-                
-                <i class="fa fa-fw fa-tags"></i>
-                
-                标签
-            </a>
-        </li>
-        
-        <li>
-            <a href="/categories" target="_blank" rel="noopener" class="waves-effect waves-light">
-                
-                <i class="fa fa-fw fa-bookmark"></i>
-                
-                分类
-            </a>
-        </li>
-        
-        <li>
             <a href="/archives" target="_blank" rel="noopener" class="waves-effect waves-light">
                 
                 <i class="fa fa-fw fa-archive"></i>
@@ -430,8 +390,8 @@ daovoice('update');
 
    
    
-<!-- 支持二级菜单特性 洪卫 shw2018 modify 2019.09.17  -->
-<!-- <ul class="menu-list mobile-menu-list">
+<!-- 支持二级菜单特性 朔蚁 blinkant modify 2020.03.17  -->
+   <ul class="menu-list mobile-menu-list">
     
         <li class="m-nav-item">
                 
@@ -446,34 +406,34 @@ daovoice('update');
         
         <li class="m-nav-item">
                 
-                    <a href="/tags" target="_blank" rel="noopener" class="waves-effect waves-light">
-                        
-                        <i class="fa fa-fw fa-tags"></i>
-                        
-                        标签
+                    <a href="javascript:;">
+                            
+                            <i class="fa fa-fw fa-archive"></i>
+                            
+                            归档
+                            <span class="m-icon"><i class="fa fa-chevron-right"></i></span>
                     </a>
-              
-            </li>
-        
-        <li class="m-nav-item">
-                
-                    <a href="/categories" target="_blank" rel="noopener" class="waves-effect waves-light">
-                        
-                        <i class="fa fa-fw fa-bookmark"></i>
-                        
-                        分类
-                    </a>
-              
-            </li>
-        
-        <li class="m-nav-item">
-                
-                    <a href="/archives" target="_blank" rel="noopener" class="waves-effect waves-light">
-                        
-                        <i class="fa fa-fw fa-archive"></i>
-                        
-                        归档
-                    </a>
+                <ul>
+                  
+                    <li> 
+                      <a href="/tags" target="_blank" rel="noopener" >
+                           
+                            <i class="fa fa-tags" style="left: 18px; position: absolute;"></i>
+                       
+                       <span>Tags</span>
+                      </a>
+                    </li>
+                  
+                    <li> 
+                      <a href="/categories" target="_blank" rel="noopener" >
+                           
+                            <i class="fa fa-bookmark" style="left: 18px; position: absolute;"></i>
+                       
+                       <span>Categories</span>
+                      </a>
+                    </li>
+                   
+                </ul>
               
             </li>
         
@@ -541,7 +501,7 @@ daovoice('update');
             </a>
         </li>
         
-    </ul> -->
+    </ul> 
 
 </div>
 
@@ -860,7 +820,7 @@ $(function () {
             volume: Number('0.7'),
             listFolded: 'false' === 'true',
             listMaxHeight: '197px',
-            audio: JSON.parse('[{"name":"Bloom of Youth","artist":"清水準一","url":"http://music.163.com/song/media/outer/url?id=760058.mp3","cover":"http://p1.music.126.net/BxiuK1_8_RXArdjxOqqUeg==/3382097775018074.jpg"},{"name":"轨迹","artist":"周杰伦","url":"http://app.pd.nf.migu.cn/MIGUM2.0/v1.0/content/sub/listenSong.do?toneFlag=SQ&netType=00&userId=15548614588710179085069&ua=Android_migu&version=5.1&copyrightId=0&contentId=600902000006889330&resourceType=E&channel=0","cover":"https://d.musicapp.migu.cn/prod/file-service/file-down/b1899d500dda5db2da11df3efc89cba6/ec5a5dd821c0d251c5acf5deb8998d5b/ccb62cd06dc4cd407c9a94a77de71b09"},{"name":"唐三彩","artist":"原·味","url":"http://music.163.com/song/media/outer/url?id=391206.mp3","cover":"http://p2.music.126.net/SER8yJyKnKoJlTQcu974Hw==/45079976754672.jpg"},{"name":"最幸福的事","artist":"钟嘉欣","url":"http://tool.liumingye.cn/music/dl/yqb/id/7649Rl1XC6aSbSJclCgQF3SfL0nZKR4RAU43k9Haf6p3qJIN/format/2000kflac","cover":"http://p2.music.126.net/8QdXU_duO0IGhZiY8GZiTg==/2360651464885734.jpg"},{"name":"真爱来敲门","artist":"蔡仁皓","url":"http://music.163.com/song/media/outer/url?id=174783.mp3","cover":"http://p1.music.126.net/yZroylOwE5AeJJomrp5SVw==/47279000006745.jpg"},{"name":"Swoon (Lindstrom And Prins Thomas Remix)","artist":"The Chemical Brothers","url":"http://app.pd.nf.migu.cn/MIGUM2.0/v1.0/content/sub/listenSong.do?toneFlag=HQ&netType=00&userId=15548614588710179085069&ua=Android_migu&version=5.1&copyrightId=0&contentId=600913000005071628&resourceType=2&channel=0","cover":"https://d.musicapp.migu.cn/prod/file-service/file-down/b1899d500dda5db2da11df3efc89cba6/bac8148393a93fef5e7870aef740b26e/f8707a1936de45615371d2c38188313f"},{"name":"Soaring (Original Mix)","artist":"TomLeevis","url":"http://music.163.com/song/media/outer/url?id=33340727.mp3","cover":"http://p1.music.126.net/B1Ycql6Qir5UtepTAuH6bg==/7984653442306264.jpg"}]')
+            audio: JSON.parse('[{"name":"Bloom of Youth","artist":"清水準一","url":"http://music.163.com/song/media/outer/url?id=760058.mp3","cover":"http://p1.music.126.net/BxiuK1_8_RXArdjxOqqUeg==/3382097775018074.jpg"},{"name":"轨迹","artist":"周杰伦","url":"http://app.pd.nf.migu.cn/MIGUM2.0/v1.0/content/sub/listenSong.do?toneFlag=LQ&netType=00&userId=15548614588710179085069&ua=Android_migu&version=5.1&copyrightId=0&contentId=600902000006889330&resourceType=2&channel=0","cover":"https://d.musicapp.migu.cn/prod/file-service/file-down/b1899d500dda5db2da11df3efc89cba6/ec5a5dd821c0d251c5acf5deb8998d5b/ccb62cd06dc4cd407c9a94a77de71b09"},{"name":"唐三彩","artist":"原·味","url":"http://music.163.com/song/media/outer/url?id=391206.mp3","cover":"http://p2.music.126.net/SER8yJyKnKoJlTQcu974Hw==/45079976754672.jpg"},{"name":"最幸福的事","artist":"钟嘉欣","url":"https://upos-hz-mirrorcos.acgvideo.com/ugaxcode/m200312wsc64h8mj4t5b85ciy0tmqv3w-192k.m4a?um_deadline=1584991613&rate=50000&oi=2130706433&um_sign=dc4c1ada47cf2bd18fcf6eaeddcffc51","cover":"http://p2.music.126.net/8QdXU_duO0IGhZiY8GZiTg==/2360651464885734.jpg"},{"name":"真爱来敲门","artist":"蔡仁皓","url":"http://music.163.com/song/media/outer/url?id=174783.mp3","cover":"http://p1.music.126.net/yZroylOwE5AeJJomrp5SVw==/47279000006745.jpg"},{"name":"Swoon (Lindstrom And Prins Thomas Remix)","artist":"The Chemical Brothers","url":"http://app.pd.nf.migu.cn/MIGUM2.0/v1.0/content/sub/listenSong.do?toneFlag=HQ&netType=00&userId=15548614588710179085069&ua=Android_migu&version=5.1&copyrightId=0&contentId=600913000005071628&resourceType=2&channel=0","cover":"https://d.musicapp.migu.cn/prod/file-service/file-down/b1899d500dda5db2da11df3efc89cba6/bac8148393a93fef5e7870aef740b26e/f8707a1936de45615371d2c38188313f"},{"name":"Soaring (Original Mix)","artist":"TomLeevis","url":"http://music.163.com/song/media/outer/url?id=33340727.mp3","cover":"http://p1.music.126.net/B1Ycql6Qir5UtepTAuH6bg==/7984653442306264.jpg"}]')
         });
     });
 </script>

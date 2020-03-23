@@ -112,24 +112,6 @@ daovoice('update');
     </li>
     
     <li class="hide-on-med-and-down">
-        <a href="/tags" target="_blank" rel="noopener" class="waves-effect waves-light">
-            
-            <i class="fa fa-tags"></i>
-            
-            <span>标签</span>
-        </a>
-    </li>
-    
-    <li class="hide-on-med-and-down">
-        <a href="/categories" target="_blank" rel="noopener" class="waves-effect waves-light">
-            
-            <i class="fa fa-bookmark"></i>
-            
-            <span>分类</span>
-        </a>
-    </li>
-    
-    <li class="hide-on-med-and-down">
         <a href="/archives" target="_blank" rel="noopener" class="waves-effect waves-light">
             
             <i class="fa fa-archive"></i>
@@ -190,7 +172,7 @@ daovoice('update');
     </li>
 </ul> -->
 
-<!-- 支持二级菜单特性 洪卫 shw2018 modify 2019.09.17  -->
+<!-- 支持二级菜单特性 朔蚁 blinkant modify 2020.03.17  -->
 <a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fa fa-navicon"></i></a>
 <ul class="right nav-menu">
     
@@ -210,40 +192,36 @@ daovoice('update');
       <li class="hide-on-med-and-down nav-item" >
 
         
-            <a href="/tags" target="_blank" rel="noopener" class="waves-effect waves-light">
-              
-                <i class="fa fa-tags"></i>
-              
-              <span>标签</span>
-            </a>
+              <a href="/archives" target="_blank" rel="noopener" class="waves-effect waves-light">
+                
+                  <i class="fa fa-archive"></i>
+                
+                <span>归档</span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+              </a>
 
-            
-      </li>
-    
-      <li class="hide-on-med-and-down nav-item" >
-
-        
-            <a href="/categories" target="_blank" rel="noopener" class="waves-effect waves-light">
+            <ul class="sub-nav menus_item_child ">
               
-                <i class="fa fa-bookmark"></i>
+                <li> 
+                  <a href="/tags" target="_blank" rel="noopener" >
+                    
+                      <i class="fa fa-tags" style="margin-top: -20px;"></i>
+                    
+                    <span>Tags</span>
+                  </a>
+                </li>
               
-              <span>分类</span>
-            </a>
-
-            
-      </li>
-    
-      <li class="hide-on-med-and-down nav-item" >
-
-        
-            <a href="/archives" target="_blank" rel="noopener" class="waves-effect waves-light">
-              
-                <i class="fa fa-archive"></i>
-              
-              <span>归档</span>
-            </a>
-
-            
+                <li> 
+                  <a href="/categories" target="_blank" rel="noopener" >
+                    
+                      <i class="fa fa-bookmark" style="margin-top: -20px;"></i>
+                    
+                    <span>Categories</span>
+                  </a>
+                </li>
+               
+            </ul>
+          
       </li>
     
       <li class="hide-on-med-and-down nav-item" >
@@ -348,24 +326,6 @@ daovoice('update');
         </li>
         
         <li>
-            <a href="/tags" target="_blank" rel="noopener" class="waves-effect waves-light">
-                
-                <i class="fa fa-fw fa-tags"></i>
-                
-                标签
-            </a>
-        </li>
-        
-        <li>
-            <a href="/categories" target="_blank" rel="noopener" class="waves-effect waves-light">
-                
-                <i class="fa fa-fw fa-bookmark"></i>
-                
-                分类
-            </a>
-        </li>
-        
-        <li>
             <a href="/archives" target="_blank" rel="noopener" class="waves-effect waves-light">
                 
                 <i class="fa fa-fw fa-archive"></i>
@@ -431,8 +391,8 @@ daovoice('update');
 
    
    
-<!-- 支持二级菜单特性 洪卫 shw2018 modify 2019.09.17  -->
-<!-- <ul class="menu-list mobile-menu-list">
+<!-- 支持二级菜单特性 朔蚁 blinkant modify 2020.03.17  -->
+   <ul class="menu-list mobile-menu-list">
     
         <li class="m-nav-item">
                 
@@ -447,34 +407,34 @@ daovoice('update');
         
         <li class="m-nav-item">
                 
-                    <a href="/tags" target="_blank" rel="noopener" class="waves-effect waves-light">
-                        
-                        <i class="fa fa-fw fa-tags"></i>
-                        
-                        标签
+                    <a href="javascript:;">
+                            
+                            <i class="fa fa-fw fa-archive"></i>
+                            
+                            归档
+                            <span class="m-icon"><i class="fa fa-chevron-right"></i></span>
                     </a>
-              
-            </li>
-        
-        <li class="m-nav-item">
-                
-                    <a href="/categories" target="_blank" rel="noopener" class="waves-effect waves-light">
-                        
-                        <i class="fa fa-fw fa-bookmark"></i>
-                        
-                        分类
-                    </a>
-              
-            </li>
-        
-        <li class="m-nav-item">
-                
-                    <a href="/archives" target="_blank" rel="noopener" class="waves-effect waves-light">
-                        
-                        <i class="fa fa-fw fa-archive"></i>
-                        
-                        归档
-                    </a>
+                <ul>
+                  
+                    <li> 
+                      <a href="/tags" target="_blank" rel="noopener" >
+                           
+                            <i class="fa fa-tags" style="left: 18px; position: absolute;"></i>
+                       
+                       <span>Tags</span>
+                      </a>
+                    </li>
+                  
+                    <li> 
+                      <a href="/categories" target="_blank" rel="noopener" >
+                           
+                            <i class="fa fa-bookmark" style="left: 18px; position: absolute;"></i>
+                       
+                       <span>Categories</span>
+                      </a>
+                    </li>
+                   
+                </ul>
               
             </li>
         
@@ -542,7 +502,7 @@ daovoice('update');
             </a>
         </li>
         
-    </ul> -->
+    </ul> 
 
 </div>
 
