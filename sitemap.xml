@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>about/index.html</loc>
+    
+    <lastmod>2020-03-24T17:59:05.609Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>baidu_verify_4IeD1YRKE1.html</loc>
     
     <lastmod>2020-01-09T08:18:15.431Z</lastmod>
@@ -16,13 +23,6 @@
   </url>
   
   <url>
-    <loc>about/index.html</loc>
-    
-    <lastmod>2019-12-23T09:28:30.653Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>2019/12/10/hello-world/</loc>
     
     <lastmod>2019-12-10T07:54:56.163Z</lastmod>
@@ -30,7 +30,7 @@
   </url>
   
   <url>
-    <loc>categories/index.html</loc>
+    <loc>AV/index.html</loc>
     
     <lastmod>2019-10-04T03:57:55.000Z</lastmod>
     
@@ -44,7 +44,7 @@
   </url>
   
   <url>
-    <loc>archives/index.html</loc>
+    <loc>categories/index.html</loc>
     
     <lastmod>2019-10-04T03:57:55.000Z</lastmod>
     
@@ -58,14 +58,14 @@
   </url>
   
   <url>
-    <loc>friends/index.html</loc>
+    <loc>galleries/%E8%83%8C%E6%99%AF%E5%9B%BE%E7%89%873/index.html</loc>
     
     <lastmod>2019-10-04T03:57:55.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>AV/index.html</loc>
+    <loc>friends/index.html</loc>
     
     <lastmod>2019-10-04T03:57:55.000Z</lastmod>
     
@@ -93,7 +93,7 @@
   </url>
   
   <url>
-    <loc>galleries/%E8%83%8C%E6%99%AF%E5%9B%BE%E7%89%873/index.html</loc>
+    <loc>archives/index.html</loc>
     
     <lastmod>2019-10-04T03:57:55.000Z</lastmod>
     
