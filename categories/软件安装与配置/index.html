@@ -79,8 +79,7 @@
 daovoice('update');
  </script>
 <meta name="generator" content="Hexo 4.1.0"><link rel="alternate" href="atom.xml" title="朔蚁" type="application/atom+xml">
-<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
-<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
     <body>
 
@@ -697,7 +696,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
         <footer class="page-footer bg-color">
     <div class="container row center-align">
         <div class="col s12 m8 l8 copy-right">
-            Copyright&copy; 2019 林乐乐. 
+            Copyright&copy; 2019-2020 林乐乐. 
 
             <br>
             <span id="sitetime"></span><span class="my-face">ღゝ◡╹)ノ♡</span>
@@ -719,7 +718,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
             
 
             
-                &nbsp; | &nbsp;字数统计:&nbsp;
+                &nbsp; |<i class="fas fa-chart-area"></i> &nbsp;站点总字数:&nbsp;
                 <span class="white-color">1.3k</span> 字
             
 
@@ -796,7 +795,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
         var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) / minutes);
         var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes *
             minutes) / seconds);
-        document.getElementById("sitetime").innerHTML = "本站已勉强运行 " + diffYears + " 年 " + diffDays + " 天 " + diffHours +
+        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffYears + " 年 " + diffDays + " 天 " + diffHours +
             " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒" ;
     } /*因为建站时间还没有一年，就将之注释掉了。需要的可以取消*/
     siteTime();
